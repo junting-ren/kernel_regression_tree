@@ -1,5 +1,5 @@
 # Kernerl Regression Tree
-
+## Junting Ren
 This repository contains R code for implementing kernel regression tree and its comparison between boosting, random forest and KNN predictions in both simulated data and real data.
 
 Regression trees provide quite simple and interpretable regression models with reasonable accuracy. However, these methods are known for their instability. Weiss & Indurkhya (1995) used a nearest neighbor approximation in their regression rules inductive system. Quinlan (1992) and Karalic (1992) have used linear models in regression tree leaves. Torgo (1999) used kernel regression models on data in the corresponding leaves to predict outcome (Local regression tree). Torgos method showed superiority compared to the traditional method that use mean in the leaves to predict outcome, but it also requires signiﬁcantly more local memory and computational time. However, through some searching, I did not ﬁnd articles that compare it with random forest and regression tree bagging. Furthermore, existing R packages do not provide kernel regression predictions for regression trees.
